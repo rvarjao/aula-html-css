@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sistema Escolar</h1>
+
+    <!-- FORMULÁRIO -->
+    <h2>Cadastro de Alunos</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Dados do Aluno</legend>
+
+            <label>Nome:</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Data de nascimento:</label><br>
+            <input type="date" name="data_nascimento"><br><br>
+
+            <label>Curso:</label><br>
+            <input type="text" name="curso"><br><br>
+
+            <label>Turma:</label><br>
+            <input type="text" name="turma"><br><br>
+
+            <label>Turno:</label><br>
+            <select name="turno">
+                <option>Selecione</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Adicionar aluno</button>
+
+    </form>
+
+    <hr>
+
+    <!-- TABELA -->
+    <h2>Lista de Alunos</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Curso</th>
+                <th>Turma</th>
+                <th>Turno</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>João Silva</td>
+                <td>Programação</td>
+                <td>A</td>
+                <td>Noite</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Maria Souza</td>
+                <td>Robótica</td>
+                <td>B</td>
+                <td>Tarde</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Carlos Lima</td>
+                <td>Física</td>
+                <td>C</td>
+                <td>Manhã</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
