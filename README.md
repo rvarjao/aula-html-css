@@ -131,3 +131,16 @@ Em algo que pareça um sistema real 😎
 ---
 
 Boa sorte! 🚀
+
+
+---
+
+Aqui seguem alguns exemplos de como o CSS altera o visual da página:
+
+![Exemplo de visual sem css](imagens/semcss.png)
+![Exemplo de visual clássico](imagens/classico.png)
+![Exemplo de visual dark mode](imagens/darkmode.png)
+![Exemplo de visual ERP](imagens/erp.png)
+![Exemplo de visual full color](imagens/fullcolor.png)
+![Exemplo de visual neon](imagens/neon.png)
+![Exemplo de visual variação](imagens/variacao.png)

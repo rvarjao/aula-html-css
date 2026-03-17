@@ -28,9 +28,89 @@
 
 */
 
-h1 {
-    color: #2c3e50;
-    text-align: center;
-    margin-top: 20px;
+body {
+
+}
+
+h1, h2 {
+
+}
+
+form,
+table {
+
+}
+
+form {
+
+}
+
+fieldset {
+
+}
+
+legend {
+
+}
+
+label {
+
+}
+
+input,
+select {
+
+}
+
+button {
+
+}
+
+form button[type="submit"] {
+
+}
+
+form button[type="submit"]:hover {
+
+}
+
+table {
+
+}
+
+th,
+td {
+
+}
+
+th {
+
+}
+
+tbody tr:nth-child(even) {
+
+}
+
+tbody tr:hover {
+
+}
+
+td button {
+
+}
+
+td button:first-child {
+
+}
+
+td button:first-child:hover {
+
+}
+
+td button:last-child {
+
+}
+
+td button:last-child:hover {
 
 }
